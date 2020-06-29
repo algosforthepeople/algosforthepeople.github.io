@@ -1,0 +1,13 @@
+a {
+  color: blue;
+}
+
+.title,
+h1 {
+  font-size: 2em; 
+}
+
+.site-title,
+h1 {
+  font-size: 3em; 
+}

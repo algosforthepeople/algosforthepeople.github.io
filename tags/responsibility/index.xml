@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Responsibility on Algorithms for the People</title>
+    <link>http://cs.brown.edu/tags/responsibility/</link>
+    <description>Recent content in Responsibility on Algorithms for the People</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 10 Jun 2020 11:31:46 -0400</lastBuildDate>
+    
+	<atom:link href="http://cs.brown.edu/tags/responsibility/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Moral Character of Scientific Work</title>
+      <link>http://cs.brown.edu/posts/moral/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/posts/moral/</guid>
+      <description>The first paper we covered was Phil Rogaway&amp;rsquo;s The Moral Character of Cryptographic Work. The paper centers around the moral and ethical responsibilities of cryptographers but its themes are relevant and applicable to computer science as a whole. This was a useful paper for us to discuss early in the course so that we could cover important notions for the rest of the course.
+Summary The paper is divided into four parts:</description>
+    </item>
+    
+  </channel>
+</rss>

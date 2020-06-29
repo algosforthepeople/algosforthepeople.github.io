@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang='en' dir='auto'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Computer Science &amp; Marginalized Communities'>
+<meta name='theme-color' content='#0000FF'>
+
+<meta property='og:title' content='Algorithms for the People'>
+<meta property='og:description' content='Computer Science &amp; Marginalized Communities'>
+<meta property='og:url' content='http://cs.brown.edu/'>
+<meta property='og:site_name' content='Algorithms for the People'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content='2020-06-10T11:31:46-04:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@senykam'>
+
+<meta name="generator" content="Hugo 0.72.0" />
+
+  <title>Algorithms for the People</title>
+  <link rel='canonical' href='http://cs.brown.edu/'>
+  
+    <link href="http://cs.brown.edu/index.xml" rel="alternate" type="application/rss+xml" title="Algorithms for the People" />
+  
+  
+  <link rel='icon' href='./favicon.ico'>
+<link rel='stylesheet' href='./assets/css/main.ab98e12b.css'><link rel='stylesheet' href='./css/custom.css'><style>
+:root{--color-accent:#0000FF;}
+</style>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-79501268-4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+</head>
+<body class='home type-page has-sidebar'>
+
+  <div class='site'><div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <h2 class='title site-title '>
+      <a href='./'>
+       <br>
+      
+      </a>
+    </h2>
+
+    <h4 class='title widget-title'>
+	About
+    </h4>
+    <div class='desc'>
+    Algorithms for the People is a blog that accompanies <a href="http://www.brown.edu">Brown University</a>'s 
+    CS <a href="http://cs.brown.edu/~seny/2950v/">2950v</a> which surveys, critiques and addresses the ways in which computer science & technology affect
+    marginalized communities.
+    
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-others sep-after'>
+  <header>
+    <h4 class='title widget-title'>
+	Related Work	
+    </h4>
+  </header>
+	<a href="https://algorithmicfairness.wordpress.com/">Algorithmic Fairness</a>
+	<br>
+	<a href="https://web.engr.oregonstate.edu/~glencora/cs175/index.php/CourseDescription">OSU CS175</a>
+	<br>
+	<a href="http://md4sg.com/">MD4SG</a>
+</section>
+<section class='widget widget-taxonomy_cloud sep-after'>
+  <header>
+    <h4 class='title widget-title'>Tags</h4>
+  </header>
+
+  <div class='container list-container'>
+  <ul class='list taxonomy-cloud'><li>
+        <a href='./tags/cointelpro/' style='font-size:1em'>COINTELPRO</a>
+      </li><li>
+        <a href='./tags/cs2950v/' style='font-size:1em'>CS2950v</a>
+      </li><li>
+        <a href='./tags/fbi/' style='font-size:1em'>FBI</a>
+      </li><li>
+        <a href='./tags/primer/' style='font-size:1em'>Primer</a>
+      </li><li>
+        <a href='./tags/research/' style='font-size:1em'>Research</a>
+      </li><li>
+        <a href='./tags/responsibility/' style='font-size:1em'>Responsibility</a>
+      </li><li>
+        <a href='./tags/surveillance/' style='font-size:1em'>Surveillance</a>
+      </li></ul>
+</div>
+
+
+</section>
+</div>
+
+  <div class='sidebar-overlay'></div>
+</div><div class='main'><nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    <a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class='open'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+  
+</svg>
+</span>
+  <span class='close'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+  
+</svg>
+</span>
+</button>
+    <ul><li class='item current'>
+        <a aria-current='page' href='./'>Home</a>
+      </li><li class='item'>
+        <a href='https://cs.brown.edu/~seny/2950v'>Course</a>
+      </li></ul>
+  </div>
+</nav><div class='header-widgets'>
+        <div class='container'></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><h1 class='site-title title'>Algorithms for the People</h1><p class='desc site-desc'>Computer Science &amp; Marginalized Communities</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<div class='home-widgets'>
+  <div class='container sep-before'><section class='widget widget-previews sep-after'>
+
+  <div>
+  
+    <main id="main">
+  <div>
+  
+    <div class='entry'>
+    <h1 class='title'>COINTELPRO</h1>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2020-06-10T11:31:46-04:00'>2020, Jun 10</time>
+</span>
+
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='./authors/seny'>Seny Kamara</a></span>
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+10 mins read
+</span>
+
+
+</div>
+
+
+    <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='./img/cointelpro.jpg' alt='J. Edgar Hoover, Director of the FBI from 1924 to 1972.'/>
+    
+      
+      <figcaption class='container'>
+        <span>J. Edgar Hoover, Director of the FBI from 1924 to 1972.</span>
+      </figcaption>
+      
+    
+  </figure>
+</div>
+    <div class='container entry-content'>
+  <p><em>This post is meant as a primer on COINTELPRO. A large part of the course was
+spent on the surveillance of social movements, but surveillance in general and
+surveillance of social movements in particular cannot be properly understood
+without some background on COINTELPRO.</em></p>
+<h2 id="introduction">Introduction</h2>
+<p>In 1971, a group of activists called the <a href="https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI">Citizens&rsquo; Commission to Investigate
+the
+FBI</a>
+broke into an FBI office in Media, Pennsylvania. The group found over a
+thousand classified documents which they shared with the press. The story
+behind the break-in is recounted in this
+<a href="https://www.youtube.com/watch?v=XjVcS4yGcSY">video</a>, the book <a href="https://www.amazon.com/Burglary-Discovery-Edgar-Hoovers-Secret/dp/0307962954">The
+Burglary</a>
+and the film <a href="https://www.1971film.com/">1971</a> on Netflix. These documents
+revealed, for the first time, the existence of a covert FBI operation called
+COINTELPRO whose goal was  to disrupt and neutralize domestic groups perceived
+as threats.  A few years later, in 1974, the New York Times revealed the
+existence of a CIA report called <a href="https://en.wikipedia.org/wiki/Family_Jewels_(Central_Intelligence_Agency)">Family
+Jewels</a>.
+The report described many covert CIA operations, including behavior
+modification research, surveillance of domestic protestors, and assassination
+attempts against <a href="https://en.wikipedia.org/wiki/Fidel_Castro">Fidel Castro</a> and <a href="https://en.wikipedia.org/wiki/Patrice_Lumumba">Patrice Lumumba</a>, among others.</p>
+<p>The disclosures of COINTELPRO and of Family Jewels pushed the US Senate to
+establish a committee&mdash;informally called the Church committee&mdash;to investigate
+the abuses of the US Intelligence Community. The committee produced what is
+referred to as the <a href="https://www.intelligence.senate.gov/sites/default/files/94755_II.pdf">Church report</a> which describes the abuses of the CIA, the
+FBI, the NSA, the IRS and certain parts of the Department of Justice and of the
+State Department.</p>
+<p><em>Everything described in the rest of the post is straight from the Church
+report</em>.</p>
+<p><strong>Overview.</strong>
+COINTELPRO was started in 1956 for the purpose of running counterintelligence
+operations against communist groups in the US. It lasted until  1971 and
+consisted of over 2000 approved actions. It&rsquo;s important to understand that the
+nature of the program was <em>counterintelligence</em> and not <em>criminal
+investigation</em> which is what people typically associate with the FBI.  The
+differences are important. Roughly speaking, the goal of a criminal
+investigation is to get a conviction, whereas the goal of a counterintelligence
+operation is to undermine and neutralize hostile agents.</p>
+<p>As we will see, there were a lot of serious abuses with COINTELPRO, including
+actions that were unconstitutional and clearly immoral and illegal.  But it&rsquo;s
+important to also understand that the high-level goal of the program was to
+maintain the existing social order of the time. In fact, the Church report
+itself states,</p>
+<blockquote>
+<p>The unexpressed major premise of much of COINTELPRO is that the Bureau has a
+role in maintaining the existing social order, and that its efforts should be
+aimed toward combatting those who threaten that order.</p>
+</blockquote>
+<p>It&rsquo;s important to keep in the mind the historical and social context of the
+time. The 1960&rsquo;s were a time when many important social movements were born
+including the <a href="https://en.wikipedia.org/wiki/Women%27s_liberation_movement">Women&rsquo;s
+Liberation</a>
+movement, the <a href="https://en.wikipedia.org/wiki/Civil_rights_movement">Civil
+Rights</a> movement, the <a href="https://en.wikipedia.org/wiki/LGBT_social_movements#Gay_Liberation_movement_(1969%E2%80%931974)">Gay
+Liberation</a>
+movement and the
+<a href="https://en.wikipedia.org/wiki/Opposition_to_United_States_involvement_in_the_Vietnam_War">Anti-War</a>
+movement.</p>
+<h3 id="the-targets">The Targets</h3>
+<p>During its 15 years of existence, COINTELPRO targeted four types of groups
+which it labeled as: <em>Communist</em> groups, <em>White Hate</em> groups, <em>Black
+Nationalist</em> groups and the <em>New Left</em>.</p>
+<p>The Communist groups included the <a href="https://en.wikipedia.org/wiki/Communist_Party_USA">Communist Party USA</a> (CPUSA) and the <a href="https://en.wikipedia.org/wiki/Socialist_Workers_Party_(United_States)">Socialist Workers Party</a> (SWP).</p>
+<p>The <em>White Hate</em> groups included the <a href="https://en.wikipedia.org/wiki/Ku_Klux_Klan">Ku Klux
+Klan</a>, the <a href="https://en.wikipedia.org/wiki/American_Nazi_Party">American Nazi
+Party</a> and the <a href="https://en.wikipedia.org/wiki/National_States%27_Rights_Party">National
+States&rsquo; Right
+Party</a>.  For the
+most part, and unlike the other programs, the scope of White Hate program
+remained narrowly focused on its initial targets and, as the report states,</p>
+<blockquote>
+<p>No legitimate right wing organizations were drawn into the program, in
+contrast with the earlier spread of the CPUSA and SWP programs to non
+members.</p>
+</blockquote>
+<p>According to the FBI itself, this was also the most successful of all the
+programs.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The <em>Black Nationalist</em> program  started with the monitoring of civil rights
+groups for communist influence but quickly expanded in scope.  Its targets
+included the <a href="https://en.wikipedia.org/wiki/Southern_Christian_Leadership_Conference">Southern Christian Leadership
+Conference</a>
+(SCLC), <a href="https://en.wikipedia.org/wiki/NAACP">the National Association for the Advancement of Colored
+People</a> (NAACP), the <a href="https://en.wikipedia.org/wiki/Student_Nonviolent_Coordinating_Committee">Student Nonviolent
+Coordinating
+Committee</a>
+(SNCC), the <a href="https://en.wikipedia.org/wiki/Revolutionary_Action_Movement">Revolutionary Action
+Movement</a>,
+<a href="https://en.wikipedia.org/wiki/Deacons_for_Defense_and_Justice">Deacons for Defense and
+Justice</a>, the
+<a href="https://en.wikipedia.org/wiki/Congress_of_Racial_Equality">Congress of Racial
+Equality</a>, the
+<a href="https://en.wikipedia.org/wiki/Nation_of_Islam">Nation of Islam</a> and the <a href="https://en.wikipedia.org/wiki/Black_Panther_Party">Black
+Panther Party</a>.  The NAACP
+was investigated for more than 25 years on the suspicion that its leaders
+sympathized with communists; even after initial FBI reports stated that they
+didn&rsquo;t.  Individuals that were targeted included <a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.">Dr.  Martin Luther King
+Jr</a>, <a href="https://en.wikipedia.org/wiki/H._Rap_Brown">H. Rap
+Brown</a> and <a href="https://en.wikipedia.org/wiki/Elijah_Muhammad">Elijah
+Muhammad</a>.  The FBI also
+included &ldquo;every Black Student union and similar group regardless of their past
+or present involvement in disorders.&rdquo;</p>
+<p>The <em>New Left</em> program was started after student protests at <a href="https://en.wikipedia.org/wiki/Columbia_University_protests_of_1968">Columbia
+University</a>.
+The FBI was never really able to define what it meant by New Left but, roughly
+speaking, it seemed to include anti-war  groups, Women&rsquo;s Liberation groups
+like the <a href="https://en.wikipedia.org/wiki/Women%27s_International_League_for_Peace_and_Freedom">Women&rsquo;s International League for Peace and
+Freedom</a>
+(WILPF) and, eventually, encompassed all student protest groups. For example,
+the report describes a student that was investigated because they carried an
+obscene sign in protest of their University&rsquo;s censorship of the school
+newspaper.  It also included the Inter-University Committee for Debate on
+Foreign Policy.</p>
+<h3 id="the-goals">The Goals</h3>
+<p>According to the Church report, the actions the FBI undertook against its
+targets  were classified into four goals: preventing <em>speaking</em>, preventing
+<em>teaching</em>, preventing <em>writing and publishing</em> and preventing <em>meetings</em>.  Specific
+actions taken by the FBI included getting high school teachers and professors
+fired, preventing the distribution of books and newspapers, disrupting peaceful
+protests and even intervening to deny meeting spaces.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>A high school teacher was investigated because they invited two poets that were
+involved with the draft resistance movement to attend their class.  After this
+was discovered and the ACLU got involved, the FBI sent anonymous letters to
+local papers, the city&rsquo;s Board of Education and to the school administration
+criticizing the ACLU&rsquo;s involvement, urging them to focus on the teacher&rsquo;s
+activities, and denouncing the teacher as a convicted draft dodger.</p>
+<p>The FBI also targeted a university professor who was an anti-war demonstrator.
+Agents  contacted a foundation known to contribute to the university and asked
+that they pressure the university to fire the professor.  Though the university
+told the foundation that the professor&rsquo;s contract would not be renewed it, in
+fact,  was renewed so the FBI and the foundation continued to mount pressure.
+In another case, the FBI sent letters to politicians, the press and university
+administrators accusing a professor of giving aid and comfort to the enemy and
+suggesting that their goal was to &ldquo;&hellip;bleed the United States white by
+prolonging the war in Vietnam and pave the way for a takeover by Russia&rdquo;.
+Another professor was even targeted because they were the faculty advisor of a
+student group that was  circulating a &ldquo;pro-student&rdquo; and anti-establishment
+pamphlet.</p>
+<p>The FBI often targeted newspapers including college and underground papers.  It
+contacted their landlords to try to get them evicted. They sent anonymous
+letters to politicians and advertisers complaining of college articles.</p>
+<p>To prevent groups from meeting, the FBI contacted the owners of the meeting
+spaces to pressure them to refuse to rent the space. Agents tried to get the
+groups&rsquo; charters revoked. They leaked the time and place of closed meetings to
+the press.  The FBI mounted disinformation campaigns against protestors by
+filling out forms with fake names and addresses so that organizers could not
+find housing for out of town protestors.  Agents placed fake calls to confuse a
+transportation company that was hired to transport protestors and dropped  fake
+leaflets on campus with different times and places for meetings.</p>
+<h3 id="the-tactics">The Tactics</h3>
+<p>To achieve its goals, the FBI used various techniques including propaganda,
+informants and anonymous letters and phone calls.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>A common theme in COINTELPRO actions was to create distrust and animosity
+within groups and between groups. For example, the FBI sent an anonymous letter
+to the leader of a Chicago gang telling him that the
+Black Panthers had taken out a hit on him. As stated in the report the goal was to</p>
+<blockquote>
+<p>&hellip;intensify the degree of animosity between the two groups and cause
+retaliatory action which could disrupt the Black Panther Party or lead to
+reprisals against its leadership.</p>
+</blockquote>
+<p>In California, the FBI used anonymous letters to exacerbate conflicts between
+the Black Panthers and a group called the <a href="https://en.wikipedia.org/wiki/US_Organization">US
+Organization</a>. Several deaths
+ensued and FBI reports said:</p>
+<blockquote>
+<p>Shootings, beatings, and a high degree of unrest continues to prevail in the
+ghetto area of southeast San Diego. Although no specific counterintelligence
+action can be credited with contributing to this overall situation, it is
+felt that a substantial amount of the unrest is directly attributable to this
+program.</p>
+</blockquote>
+<p>The FBI targeted a Black veteran who was on leave from a mental hospital and
+was upset with the SCLC.  Again, according to FBI reports the goal of the
+operation was to:</p>
+<blockquote>
+<p>&hellip;neutralize [him] by causing his commitment to a mental
+hospital, and to gain unfavorable publicity for the SCLC.</p>
+</blockquote>
+<p>The FBI also targeted the leaders of various groups, especially of the
+Black Panther Party. A series of anonymous letters were sent to create a rift
+between <a href="https://en.wikipedia.org/wiki/Huey_P._Newton">Huey P. Newton</a> and
+<a href="https://en.wikipedia.org/wiki/Eldridge_Cleaver">Eldridge Cleaver</a>. The FBI
+even sent an anonymous letter to <a href="https://en.wikipedia.org/wiki/Stokely_Carmichael">Stokely
+Carmichael</a>&rsquo;s mother claiming
+members of the Party planned to kill him.</p>
+<p>Another tactic was the <em>snitch jacket</em>, where a target would be falsely labeled
+as an informant. In one instance, the FBI had a police officer pick up two
+anti-war protestors under false pretense and arranged for someone to radio the
+officer to say that the target&mdash;a third anti-way protestor&mdash;had called and
+wanted the officer to call her back.  In another example, five members of the
+Black Panther Party were arrested. All but one were released and the rumor was
+spread that the fifth member was released last because they had cooperated.</p>
+<p>A third tactic was to interfere in a target&rsquo;s personal life. For example, the
+FBI targeted a woman that was associated with WILPF as well as two groups
+labeled as New Left and Black Nationalist. Agents sent anonymous letters to her
+husband accusing her of infidelity. Four months after the letter was sent, the
+couple had separated.</p>
+<p>Letters were sent to employers of targets to get them fired. A priest that
+allowed the Black Panther Party to use his church for its breakfast program was
+transferred after an anonymous letter and anonymous phone calls were made to
+his bishop. A television commentator that had expressed sympathy for a &ldquo;Black
+Nationalist&rdquo; leader was transferred after his station received anonymous letters
+from the FBI.</p>
+<p>After a Black university student was arrested in a protest, the FBI sent
+anonymous letters to the local prosecutor and radio to reveal that her adoptive
+father was a communist. The goal was to &ldquo;aid the prosecutor in his case against
+the student&rdquo;.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="martin-luther-king-jr">Martin Luther King Jr.</h2>
+<p>The FBI targeted a lot of people under COINTELPRO but the intensity of its
+actions against Martin Luther King Jr. was exceptional.  It would take too long
+to properly describe the FBI&rsquo;s actions against Dr. King but, as the Church
+report, states</p>
+<blockquote>
+<p>The FBI campaign to discredit and destroy Dr. King was marked by extreme
+personal vindictiveness.</p>
+</blockquote>
+<p>Dr. King was a target of the FBI from 1963 until his death in 1968 and, in
+fact, even after.  His home was tapped from 1963 to 1965 and the headquarters of
+the SCLC for even longer.  The FBI tapped his hotel rooms in the hope of
+gathering evidence of adultery.</p>
+<p>FBI agents flew to the Vatican to convince the Pope to cancel
+a meeting with Dr. King. When he won the Nobel Peace prize, the FBI mounted a
+campaign to undermine him with heads of states and ambassadors. Letters with
+his forged signature were sent to donors suggesting that the SCLC was being
+investigated by the IRS.</p>
+<p>The FBI even sent Dr. King and his wife, Coretta Scott King, purported
+recordings of his adultery with a
+<a href="https://en.wikipedia.org/wiki/FBI%E2%80%93King_suicide_letter">letter</a>
+suggesting he kill himself if he did not want the recording to be released.</p>
+<p>Even after his death, the FBI lobbied  Congress to fight against the
+establishment of Martin Luther King day.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>COINTELPRO was officially terminated in 1971.  The Church
+report had a  big impact on how intelligence and counterintelligence is
+conducted in the US. Among other things, it lead to the ban of <a href="https://en.wikipedia.org/wiki/Executive_Order_11905">political assassinations</a> and to
+the <a href="https://en.wikipedia.org/wiki/Foreign_Intelligence_Surveillance_Act">Foreign Intelligence Surveillance
+Act</a>
+(FISA).
+Even though COINTELPRO was terminated, the FBI continues to
+surveil domestic groups, including activists.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+</div>
+
+    
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='tags'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='./tags/cointelpro/'>COINTELPRO</a>, <a class='tag' href='./tags/fbi/'>FBI</a>, <a class='tag' href='./tags/primer/'>Primer</a>, <a class='tag' href='./tags/surveillance/'>Surveillance</a></div>
+
+  </div>
+</footer>
+
+
+    <br>
+    <br>
+    </div>
+  
+    <div class='entry'>
+    <h1 class='title'>The Moral Character of Scientific Work</h1>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2020-06-10T11:31:46-04:00'>2020, Jun 10</time>
+</span>
+
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='./authors/2950v-19'>2950v-19</a></span>
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+11 mins read
+</span>
+
+
+</div>
+
+
+    <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='./img/russel-einstein-small.jpg' alt='Announcement of the Einstein-Russel manifesto.'/>
+    
+      
+      <figcaption class='container'>
+        <span>Announcement of the Einstein-Russel manifesto.</span>
+      </figcaption>
+      
+    
+  </figure>
+</div>
+    <div class='container entry-content'>
+  <p><em>The first paper we covered was Phil Rogaway&rsquo;s <a href="https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf">The Moral
+Character of <strong>Cryptographic</strong>
+Work</a>. The paper
+centers around the moral and ethical responsibilities of cryptographers but its
+themes are relevant and applicable to computer science as a whole.  This was a
+useful paper for us to discuss early in the course so that we could cover
+important notions for the rest of the course.</em></p>
+<h3 id="summary">Summary</h3>
+<p>The paper is divided into four parts:</p>
+<ol>
+<li><em>Social responsibility of scientists &amp; engineers</em>: is a broad discussion about the ethical responsibilities of scientists;</li>
+<li><em>Political character of cryptographic work</em>: discusses the inherent political nature of cryptography and the apolitical culture of part of the academic cryptography community;</li>
+<li><em>The dystopian world of pervasive surveillance</em>: describes two opposing framings of mass surveillance;</li>
+<li><em>Creating a more just and useful field</em>: describes a set of problems that Rogaway believes cryptographers should work on.</li>
+</ol>
+<p><strong>Social responsibility of scientists &amp; engineers.</strong>
+In this section, Rogaway discusses the post World War II scientific
+&ldquo;ethic of responsibility&rdquo;. He describes the <a href="https://en.wikipedia.org/wiki/Russell%E2%80%93Einstein_Manifesto">Russell-Einstein
+manifesto</a>
+from 1955 which called for nuclear disarmament and the <a href="https://en.wikipedia.org/wiki/Pugwash_Conferences_on_Science_and_World_Affairs">Pugwash Conference on
+Science and World
+Affairs</a>
+which played an important role in disarmament and diplomacy.  He then
+argues that technical work itself can be political and that, in response,
+scientists can engage in politics in one of two ways.  The first is via
+<em>implicit politics</em>, where a scientist affects politics as a byproduct of their
+technical work. The second is via <em>overt politics</em> where a scientist affects
+politics through activism.</p>
+<p>Rogaway then describes three historical events that shaped scientists&rsquo; ethics of
+responsibility: the experience of physicists after the invention
+of nuclear weapons; the <a href="https://en.wikipedia.org/wiki/Nuremberg_trials">Nuremberg
+trials</a> which established the idea that following orders does not absolve one from moral responsibility; and the rise of the <a href="https://en.wikipedia.org/wiki/Environmental_movement#Formation_of_environmental_protection_societies">environmental
+movement</a>.
+According to Rogaway, these events lead to a sort of &ldquo;golden era&rdquo; of scientific
+responsibility where ethics and social concerns were the norm in scientific
+work.</p>
+<p>Yet, he points out, in recent decades the ethics of responsibility in science
+has eroded considerably. He describes several instances of scientists
+and other academics that choose to explicitly take amoral and apolitical
+stands.  This is summarized in the following quote from Stanley Fisch:</p>
+<blockquote>
+<p>&hellip;don&rsquo;t confuse your academic obligations with the obligation to save the
+world; that&rsquo;s not your job as an academic.</p>
+</blockquote>
+<p>Rogaway speculates as to what caused this decline and believes that it is,
+in part, due to  the rise of <a href="https://en.wikipedia.org/wiki/Technological_utopianism">technological
+optimism</a>.
+Technological optimism is the idea that technology is inherently
+positive and that technological innovation will solve most of humanity&rsquo;s
+problems.  Rogaway&rsquo;s argument is, roughly speaking, that technological
+optimists equate technology with progress and this eliminates the need to
+think critically about one&rsquo;s work. In other words, since the act of creating
+technology is inherently good why should we, as technology builders, even worry
+about the consequences of our work? A contrary perspective is that of
+<a href="https://en.wikipedia.org/wiki/Pessimism#Technological_and_environmental">technological
+pessimists</a>
+who believe that technology does not lead to progress and point to weapons of
+mass destruction and the environmental crisis as one of many examples of
+technology&rsquo;s negative impact. Somewhere in the middle are technological
+contextualists who acknowledge technology&rsquo;s negative impacts but believe it can
+be directed and harnessed towards positive outcomes.</p>
+<p>Rogaway ends this section with a reminder of scientist&rsquo;s ethical
+responsibilities. The first is that one&rsquo;s role is not simply to &ldquo;do no harm&rdquo;
+but to actively pursue social good. The second is that the responsibilities of a
+scientist  extend  beyond herself all the way to her community, i.e., as a
+scientist you are morally responsible for the impact of your scientific
+community.</p>
+<p><strong>The political character of cryptographic work.</strong>
+Here, Rogaway argues that cryptography is inherently political but
+that its political nature has been erased in part of the academic cryptography
+community. He recalls that, in the early days of modern cryptography (late
+70&rsquo;s and early 80&rsquo;s), cryptography research was often motivated by political
+questions.  He then describes how academic cryptography eventually fragmented
+into two communities represented, roughly speaking,  by the
+<a href="https://www.iacr.org/">IACR</a> community (CRYPTO,
+Eurocrypt, Asiacrypt and TCC) and the <a href="https://petsymposium.org/">PETS</a>
+community.  Rogaway illustrates his point using two papers that were published
+around the same time: Chaum&rsquo;s  <a href="https://dl.acm.org/doi/10.1145/358549.358563">Untraceable electronic mail, return addresses,
+and digital pseudonyms</a>
+[Chaum81], which is highly influential at PETS;  and Goldwasser and Micali&rsquo;s <a href="https://groups.csail.mit.edu/cis/pubs/shafi/1984-jcss.pdf">Probabilistic
+Encryption</a> [GM82], which is highly influential in IACR conferences.
+Rogaway then states</p>
+<blockquote>
+<p>Papers citing [GM82] frame problems scientifically. Authors claim to solve
+important technical questions. The tone is assertive, with hints of
+technological optimism. In marked contrast, papers citing [Chaum81] frame
+problems socio-politically. Authors speak about some social problem or need.
+The tone is reserved and explicitly contextualist views are routine.</p>
+</blockquote>
+<p>He then discusses another cryptographic community: the
+<a href="https://en.wikipedia.org/wiki/Cypherpunk">cypherpunks</a> whose principles can be
+roughly articulated as the pursuit of individual privacy against governments
+and corporations through the use of open and freely available cryptography. The
+section ends with a survey of various cryptographic primitives that Rogaway
+argues embed political and sometimes even authoritarian principles.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>The dystopian world of pervasive surveillance.</strong>
+In this section, Rogaway presents two different framings of mass surveillance:
+one from law enforcement which frames privacy as a personal good and
+(national) security as a collective good; and one from surveillance studies
+which frames both privacy and security as collective goods.  The Law
+Enforcement argument is that the widespread deployment of
+encryption is increasing personal privacy at the cost of national security. Law
+enforcement agencies are &ldquo;<a href="https://www.fbi.gov/services/operational-technology/going-dark">going
+dark</a>&rdquo; due to
+encryption and their ability to protect the nation is rapidly deteriorating.  The
+privacy and surveillance studies argument, on the other hand, is that Law
+Enforcement has access to an unprecedented amount of information about people
+and that that is certainly enough for it to accomplish its mission. Trying to
+stop the deployment of encryption and other cryptographic technologies not only
+weakens people&rsquo;s individual privacy but weakens the social goods that privacy
+enables like dissent and social progress.</p>
+<p><strong>Creating a more just and useful field.</strong>
+In the final section, Rogaway describes technical problems cryptographers
+should work on if they want to help build a better field. This discussion is
+very crypto-centric so we won&rsquo;t summarize it here but only mention that he
+advocates for cryptographers to expand the problems they work on to include
+surveillance-motivated research. Rogaway also discusses funding, claiming that
+most of the funding for cryptography research (in the U.S.) comes from the
+Department of Defense (DoD) and advocates that academics &ldquo;think twice, and then
+again, about accepting military funding&rdquo;.</p>
+<h3 id="our-discussion">Our Discussion</h3>
+<p>We agreed with many of Rogaway&rsquo;s points. In particular, with the pervasiveness
+of technological optimism in our field and decline of ethical responsibility in
+science.</p>
+<p><strong>Ethical responsibility.</strong>
+Most of us agreed that scientists should be bound by the ethics
+of responsibility that Rogaway summarizes. One of us, however,  did not agree
+and believed that scientists and engineers  should focus on
+creating technology and not on technology&rsquo;s social implications, which should
+be left to others.  Though this was a  minority view, we also understand that
+Brown is perhaps not completely representative of the entire political spectrum
+and that this perspective is surely more common in the wider computer science
+community.</p>
+<p>Another issue we discussed was that the scientists and communities that
+shaped the post-war ethic of responsibility were overwhelmingly white and male.
+Many of us felt that this was important because people&rsquo;s values and and moral
+code are shaped by their background and experiences. And without diverse
+perspectives, the range and scope of possible ethical codes that were
+considered at the time were likely very narrow.</p>
+<p><strong>The decline of ethical responsibility.</strong>
+We discussed <em>why</em> ethical responsibility in science
+declined. Rogaway&rsquo;s hypothesis is that it is, in part,  linked to an
+increase  in individualism and in technological optimism. There is, however,  another
+perhaps more cynical hypothesis: maybe scientists have never been <em>that</em>
+ethically engaged in the first place. The historical events that lead to the
+post-war golden era of responsibility were atypical.  The use of nuclear
+weapons and the concentration camps of Nazi Germany were two of the worst
+atrocities committed in human history.  So it is not surprising that scientists
+had to reconcile with these events and respond in a way that changed their view
+of moral responsibility.</p>
+<p>But is this really the standard to which scientists and engineers should be
+held today?  It should not take genocide and the  creation of new weapons of
+mass destruction to galvanize our community to develop and adhere to ethical
+standards.  These atrocities were highly visible and hard to ignore.  But the
+everyday minutiae of working on morally gray problems is easier to overlook.
+And if we don&rsquo;t provide everyday scientists and engineers the tools and
+frameworks to evaluate the ethics and social impact of their own work, we will
+continue to leave morality aside in the pursuit of academic and entrepreneurial
+success.</p>
+<p>With this in mind, is it then surprising that the ethos of responsibility did
+not survive? It was created as a reaction to extreme events but it did not
+fundamentally change how science is conducted or how students in STEM are
+educated.</p>
+<p><strong>A new ethics of responsibility.</strong>
+We also talked about whether today&rsquo;s ethic of responsibility should still be
+founded on the post-war ethics? Should it ask for more? If so what?  Many of
+our students were born in the 2000&rsquo;s and grew up in a world that is markedly
+different from Einstein and Russel&rsquo;s. This also related to our discussion about
+the lack of diversity in post-war science. So the question was: given the
+current state of the world and a (slightly?) more diverse scientific community,
+what should today&rsquo;s ethic of responsibility look like?</p>
+<p><strong>Fragmentation of academic cryptography.</strong>
+Those of us that worked in cryptography agreed with Rogaway&rsquo;s description of
+our field and of the apolitical culture of the IACR community. Nobody felt this
+was particularly controversial; it is obvious to anyone who reads the
+proceedings and attends the conferences.</p>
+<p>Since this was obvious, our conversation focused more on <em>why</em> this might be
+the case. One of Rogaway&rsquo;s observations is that the IACR community is
+technologically optimist whereas the PETS community is technologically
+contextualist.  Another reason, however, might be because the cryptography community
+lacks diversity; both demographic diversity and  intellectual diversity. In
+fact, we talked about <em>who</em> exactly becomes a cryptographer? What experiences
+do they bring to the table? How are they trained?  Many (if not most) people in
+this community come from a math and theoretical computer science background.
+Most have been educated and trained at one of a handful of institutions. Most
+of the community&rsquo;s academic lineage can even be traced back to a handful of
+people.</p>
+<p>We agreed with Rogaway&rsquo;s call for the community to expand the scope of problems
+it works on. But we also wanted the community to be more intentional about
+diversifying itself. A scientist&rsquo; s choice of problems is shaped by who
+they are. Including  people of different backgrounds would expand the scope of
+research and provide wider perspectives.  IACR sponsors non-US conferences
+like Eurocrypt, Asiacrypt and Africacrypt but anyone familiar with these venues
+knows that they are not designed to promote a local view of cryptographic
+research; i.e., the same problems studied at CRYPTO are studied at Asiacrypt
+and at Africacrypt.  Can we really have a conversation about the moral
+character of cryptographic work without expanding who has access to which
+platforms or addressing how we gate-keep as a community?</p>
+<p><strong>Funding.</strong>
+For context, our discussions occurred against the backdrop of the Jeffrey
+Epstein scandal and Ronan Farrow&rsquo;s story about the <a href="https://www.newyorker.com/news/news-desk/how-an-elite-university-research-center-concealed-its-relationship-with-jeffrey-epstein">MIT Media
+Lab</a>&rsquo; s
+financial relationship with Epstein. So we spent a lot of time discussing
+funding.  Wile Rogaway&rsquo;s funding critique centered around individual
+academics&rsquo; choice of taking DoD money, ours centered around the
+<em>institutions</em> in which these academics worked, i.e., Universities. Asking
+individual faculty to be circumspect about their funding is great but if the
+institutions they work for: (1) do  not fund their research; but (2) evaluate
+and promote them based on their research; and (3) pressure them to obtain
+funding so that they can pay their summer salaries and fund their PhD students;
+then these institutions need to shoulder some  of the responsibility.
+To be clear, none of us felt that  apportioning blame to Universities
+absolved faculty from their decisions and certainly not Joi Ito and
+the Media Lab. But we did feel like any conversation about funding needs to
+include a broader discussion about how academic research is funded and the
+incentives that creates for individual faculty.</p>
+<p><strong>Editorial note on algorithmic fairness.</strong>
+Looking back on this discussion, the issues surrounding the fragmentation of
+the cryptography community seem particularly relevant to what is happening in
+the field of algorithmic fairness. The first conference on the subject,
+<a href="https://facctconference.org/">FaccT</a>, advocates for interdisciplinary work
+that is rooted in and informed by the social context surrounding fairness,
+accountability and transparency. From the FaccT webpage:</p>
+<blockquote>
+<p>Research challenges are not limited to technological solutions regarding
+potential bias, but include the question of whether decisions should be
+outsourced to data- and code-driven computing systems. We particularly seek
+to evaluate technical solutions with respect to existing problems, reflecting
+upon their benefits and risks; to address pivotal questions about economic
+incentive structures, perverse implications, distribution of power, and
+redistribution of welfare; and to ground research on fairness,
+accountability, and transparency in existing legal requirements.</p>
+</blockquote>
+<p>On the other hand, the more recent <a href="https://responsiblecomputing.org/">Foundations of Responsible
+Computing</a> (FORC) emphasises the
+mathematical, algorithmic, statistical and economics aspects
+of responsible computing. From the FORC website:</p>
+<blockquote>
+<p>The Symposium on Foundations of Responsible Computing (FORC) is a forum for
+mathematical research in computation and society writ large.  The Symposium
+aims to catalyze the formation of a community supportive of the application
+of theoretical computer science, statistics, economics and other relevant
+analytical fields to problems of pressing and anticipated societal concern.</p>
+</blockquote>
+<p>Just as cryptography is inherently political, algorithmic fairness is
+inherently social and political so it will be interesting to see how this
+community chooses to evolve.</p>
+
+</div>
+
+    
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='tags'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='./tags/research/'>Research</a>, <a class='tag' href='./tags/responsibility/'>Responsibility</a></div>
+
+  </div>
+</footer>
+
+
+    <br>
+    <br>
+    </div>
+  
+    <div class='entry'>
+    <h1 class='title'>Intro &amp; Overview</h1>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2020-06-06T11:31:46-04:00'>2020, Jun 06</time>
+</span>
+
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='./authors/seny'>Seny Kamara</a></span>
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+3 mins read
+</span>
+
+
+</div>
+
+
+    <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='./img/2950v.jpeg' alt='Brown CS 2950v course advertisement.'/>
+    
+      
+      <figcaption class='container'>
+        <span>Brown CS 2950v course advertisement.</span>
+      </figcaption>
+      
+    
+  </figure>
+</div>
+    <div class='container entry-content'>
+  <p>In Fall 2019, I taught a course called <a href="http://cs.brown.edu/~seny/2950v/">Crypto for Social
+Good</a>. I didn&rsquo;t like the name but I had to
+make a quick decision and that was the best I could come up with at the time.
+I had a sense of the topics I wanted to cover but I didn&rsquo;t have a way to
+capture the essence of the course.</p>
+<p>In fact, on the first day of class I told my students:</p>
+<blockquote>
+<p>I&rsquo;m not exactly sure what this course is about, but we&rsquo;re going to figure it
+out.</p>
+</blockquote>
+<p>And we did. What we found is that the course was about <em>the impact of computer
+science and technology on marginalized groups</em>. The course had a privacy and
+surveillance bias to it because that&rsquo;s what I work on, but we had
+students from a variety of CS backgrounds including AI/ML, robotics and systems
+so our discussions ended up being somewhat broader (though we unfortunately did
+not have any students from the social sciences).</p>
+<p>My motivation for creating the course was frustration. I have studied computer
+science for almost 25 years.  I have worked on cryptography for over 15 years.
+I worked at Microsoft Research for 8 years. I spent a year and half on a
+National Academy of Sciences committee studying the impact of encryption on law
+enforcement and national security. I went all the way from being a confused
+undergraduate computer science major to an Associate Professor  and, until very recently,
+I never attended a lecture or had a conversation with other computer scientists about
+the specific impact that technology has on marginalized groups.</p>
+<p>Of course, teaching and research on this subject did exist <em>outside of CS</em> but
+my point is that I never encountered any <em>computer science</em> work that focused
+on the experiences of marginalized people.  This leads me to believe that, as a
+field, we don&rsquo;t really care.  At least not in a meaningful way.  We write
+diversity and inclusion statements but we don&rsquo;t do research or build
+technologies that address the problems of marginalized communities.</p>
+<p>So this is why I created the course. But what is <em>this blog</em> about? During our
+time together, my students and I read, analyzed and discussed many
+reports and articles and we thought a lot about computer science&rsquo;s role (and
+sometimes absence) in various social problems. We thought about the problems that different
+communities were facing and whether technology-based solutions even made
+sense (often they didn&rsquo;t!). In some cases, we also sketched new technologies
+that could potentially impact these communities in a positive way. None of
+these discussions were authoritative. We didn&rsquo;t come up with any definitive
+answers; but we weren&rsquo;t trying to. Our goal was to educate ourselves and
+reflect. To imagine what computer science would look like if the interests of
+marginalized people were taken seriously by the field.</p>
+<p>I think the results of our work are important and, as far as I know, somewhat
+unique so this blog will serve as a way to communicate them to those who are
+interested.  I will post summaries and analyses of our readings and,
+eventually, the research that came out of that.</p>
+<p>Posts related to class discussions will be authored as a group named 2950v-XX,
+where XX will be the course year. I decided on group authorship to
+protect the students&rsquo; privacy and to avoid them being targeted.</p>
+<p>For Fall 2020, I plan on broadening the class beyond crypto and on changing the
+name to “Algorithms for the People”. I feel that it better captures what the
+course was always about; even if I didn&rsquo;t realize it at first.</p>
+
+</div>
+
+    
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='tags'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='./tags/cs2950v/'>CS2950v</a></div>
+
+  </div>
+</footer>
+
+
+    <br>
+    <br>
+    </div>
+  
+  </div>
+</main>
+
+  
+  </div>
+
+</section>
+</div>
+</div>      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><div class='copyright'>
+  <p></p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__assets_js_src="./assets/js/"</script>
+
+<script src='./assets/js/main.c3bcf2df.js'></script><script src='./js/custom.js'></script>
+
+</body>
+
+</html>
+

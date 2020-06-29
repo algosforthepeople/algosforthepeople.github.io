@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Primer on Algorithms for the People</title>
+    <link>http://cs.brown.edu/tags/primer/</link>
+    <description>Recent content in Primer on Algorithms for the People</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 10 Jun 2020 11:31:46 -0400</lastBuildDate>
+    
+	<atom:link href="http://cs.brown.edu/tags/primer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COINTELPRO</title>
+      <link>http://cs.brown.edu/posts/cointelpro/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/posts/cointelpro/</guid>
+      <description>This post is meant as a primer on COINTELPRO. A large part of the course was spent on the surveillance of social movements, but surveillance in general and surveillance of social movements in particular cannot be properly understood without some background on COINTELPRO.
+Introduction In 1971, a group of activists called the Citizens&amp;rsquo; Commission to Investigate the FBI broke into an FBI office in Media, Pennsylvania. The group found over a thousand classified documents which they shared with the press.</description>
+    </item>
+    
+  </channel>
+</rss>

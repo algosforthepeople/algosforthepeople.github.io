@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Algorithms for the People</title>
+    <link>http://cs.brown.edu/tags/</link>
+    <description>Recent content in Tags on Algorithms for the People</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 10 Jun 2020 11:31:46 -0400</lastBuildDate>
+    
+	<atom:link href="http://cs.brown.edu/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COINTELPRO</title>
+      <link>http://cs.brown.edu/tags/cointelpro/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/tags/cointelpro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FBI</title>
+      <link>http://cs.brown.edu/tags/fbi/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/tags/fbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primer</title>
+      <link>http://cs.brown.edu/tags/primer/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/tags/primer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://cs.brown.edu/tags/research/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Responsibility</title>
+      <link>http://cs.brown.edu/tags/responsibility/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/tags/responsibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surveillance</title>
+      <link>http://cs.brown.edu/tags/surveillance/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/tags/surveillance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS2950v</title>
+      <link>http://cs.brown.edu/tags/cs2950v/</link>
+      <pubDate>Sat, 06 Jun 2020 11:31:46 -0400</pubDate>
+      
+      <guid>http://cs.brown.edu/tags/cs2950v/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
