@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Algorithms for the People</title>
-    <link>http://cs.brown.edu/categories/</link>
+    <link>http://algosforthepeople.org/categories/</link>
     <description>Recent content in Categories on Algorithms for the People</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://cs.brown.edu/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://algosforthepeople.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

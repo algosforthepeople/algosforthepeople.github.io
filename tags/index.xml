@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Algorithms for the People</title>
-    <link>http://cs.brown.edu/tags/</link>
+    <link>http://algosforthepeople.org/tags/</link>
     <description>Recent content in Tags on Algorithms for the People</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 10 Jun 2020 11:31:46 -0400</lastBuildDate>
     
-	<atom:link href="http://cs.brown.edu/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://algosforthepeople.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>COINTELPRO</title>
-      <link>http://cs.brown.edu/tags/cointelpro/</link>
+      <link>http://algosforthepeople.org/tags/cointelpro/</link>
       <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/tags/cointelpro/</guid>
+      <guid>http://algosforthepeople.org/tags/cointelpro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FBI</title>
-      <link>http://cs.brown.edu/tags/fbi/</link>
+      <link>http://algosforthepeople.org/tags/fbi/</link>
       <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/tags/fbi/</guid>
+      <guid>http://algosforthepeople.org/tags/fbi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Primer</title>
-      <link>http://cs.brown.edu/tags/primer/</link>
+      <link>http://algosforthepeople.org/tags/primer/</link>
       <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/tags/primer/</guid>
+      <guid>http://algosforthepeople.org/tags/primer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>http://cs.brown.edu/tags/research/</link>
+      <link>http://algosforthepeople.org/tags/research/</link>
       <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/tags/research/</guid>
+      <guid>http://algosforthepeople.org/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Responsibility</title>
-      <link>http://cs.brown.edu/tags/responsibility/</link>
+      <link>http://algosforthepeople.org/tags/responsibility/</link>
       <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/tags/responsibility/</guid>
+      <guid>http://algosforthepeople.org/tags/responsibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Surveillance</title>
-      <link>http://cs.brown.edu/tags/surveillance/</link>
+      <link>http://algosforthepeople.org/tags/surveillance/</link>
       <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/tags/surveillance/</guid>
+      <guid>http://algosforthepeople.org/tags/surveillance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CS2950v</title>
-      <link>http://cs.brown.edu/tags/cs2950v/</link>
+      <link>http://algosforthepeople.org/tags/cs2950v/</link>
       <pubDate>Sat, 06 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/tags/cs2950v/</guid>
+      <guid>http://algosforthepeople.org/tags/cs2950v/</guid>
       <description></description>
     </item>
     

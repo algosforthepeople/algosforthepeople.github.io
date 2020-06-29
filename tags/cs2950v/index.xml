@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CS2950v on Algorithms for the People</title>
-    <link>http://cs.brown.edu/tags/cs2950v/</link>
+    <link>http://algosforthepeople.org/tags/cs2950v/</link>
     <description>Recent content in CS2950v on Algorithms for the People</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 06 Jun 2020 11:31:46 -0400</lastBuildDate>
     
-	<atom:link href="http://cs.brown.edu/tags/cs2950v/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://algosforthepeople.org/tags/cs2950v/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Intro &amp; Overview</title>
-      <link>http://cs.brown.edu/posts/intro/</link>
+      <link>http://algosforthepeople.org/posts/intro/</link>
       <pubDate>Sat, 06 Jun 2020 11:31:46 -0400</pubDate>
       
-      <guid>http://cs.brown.edu/posts/intro/</guid>
+      <guid>http://algosforthepeople.org/posts/intro/</guid>
       <description>In Fall 2019, I taught a course called Crypto for Social Good. I didn&amp;rsquo;t like the name but I had to make a quick decision and that was the best I could come up with at the time. I had a sense of the topics I wanted to cover but I didn&amp;rsquo;t have a way to capture the essence of the course.
 In fact, on the first day of class I told my students:</description>
     </item>
