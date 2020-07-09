@@ -5,7 +5,7 @@
     <link>http://algosforthepeople.org/</link>
     <description>Recent content on Algorithms for the People</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Jun 2020 11:31:46 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 11:31:46 -0400</lastBuildDate>
     
 	<atom:link href="http://algosforthepeople.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>COINTELPRO</title>
       <link>http://algosforthepeople.org/posts/cointelpro/</link>
-      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      <pubDate>Fri, 26 Jun 2020 11:31:46 -0400</pubDate>
       
       <guid>http://algosforthepeople.org/posts/cointelpro/</guid>
       <description>This post is meant as a primer on COINTELPRO. A large part of the course was spent on the surveillance of social movements, but surveillance in general and surveillance of social movements in particular cannot be properly understood without some background on COINTELPRO.
@@ -23,7 +23,7 @@ Introduction In 1971, a group of activists called the Citizens&amp;rsquo; Commis
     <item>
       <title>The Moral Character of Scientific Work</title>
       <link>http://algosforthepeople.org/posts/moral/</link>
-      <pubDate>Wed, 10 Jun 2020 11:31:46 -0400</pubDate>
+      <pubDate>Sun, 14 Jun 2020 11:31:46 -0400</pubDate>
       
       <guid>http://algosforthepeople.org/posts/moral/</guid>
       <description>The first paper we covered was Phil Rogaway&amp;rsquo;s The Moral Character of Cryptographic Work. The paper centers around the moral and ethical responsibilities of cryptographers but its themes are relevant and applicable to computer science as a whole. This was a useful paper for us to discuss early in the course so that we could cover important notions for the rest of the course.
